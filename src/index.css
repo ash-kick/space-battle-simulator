@@ -1,0 +1,67 @@
+html {
+     font-family: "Courier New", Courier, monospace;
+     line-height: 1.5;
+     font-weight: 400;
+
+     color-scheme: light dark;
+     color: rgba(255, 255, 255, 0.87);
+     background-color: #242424;
+}
+
+body {
+     display: flex;
+     align-content: center;
+}
+
+main {
+     height: 80vh;
+     width: 80vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+.game {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     font-size: 16px;
+     font-weight: bold;
+}
+
+.player {
+     color: greenyellow;
+}
+
+.enemy {
+     color: red;
+}
+
+.restart-button,
+.fire-button {
+     border-radius: 50%;
+     height: 100px;
+     width: 100px;
+     border: solid;
+     border-width: 8px;
+     font-family: "Courier New", Courier, monospace;
+     font-size: 14px;
+     font-weight: bold;
+}
+
+.fire-button {
+     border-color: red;
+     background-color: orange;
+}
+
+.restart-button {
+     background-color: black;
+}
+
+.game-message {
+     border-color: white;
+     border: solid;
+     border-width: 1px;
+     padding: 40px;
+}
